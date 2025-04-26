@@ -1,0 +1,8 @@
+### Explanation:
+1. **Features Section**: This section highlights the main features of your package (Customizable, Sortable, and High-Quality Flags).
+2. **Installation**: Instructions for adding `country_list` to the `pubspec.yaml`.
+3. **Usage**: A simple usage example with a link to the full documentation for more detailed usage.
+4. **Documentation Link**: Provides a link to the documentation site for more in-depth details.
+5. **License**: Included a standard MIT license section.
+
+This `README.md` will help users understand the capabilities of your package and provide easy access to your documentation site. Let me know if you need further adjustments!

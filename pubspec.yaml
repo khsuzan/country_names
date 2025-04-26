@@ -1,0 +1,42 @@
+name: country_list
+description: A Flutter package providing a list of sovereign countries.
+version: 1.0.0
+homepage: https://fenzybd.github.io/country_list_doc
+repository: https://github.com/khsuzan/country_list
+documentation: https://fenzybd.github.io/country_list_doc
+issue_tracker: https://github.com/khsuzan/country_list/issues
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/_80/
+    - assets/_160/
+
+license: MIT
+
+screenshots:
+  - description: 'CountryList widget preview'
+    path: preview.webp
+
+topics:
+  - flutter
+  - country
+  - country-list
+  - flags
+  - country-selector
+  - localization
+  - data
+  - sorting
+  - customizable
