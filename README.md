@@ -24,3 +24,6 @@ dependencies:
 
 For more detailed documentation on how to use the `country_list` package, please visit the official documentation here:
 [**Country List Documentation**](https://fenzybd.github.io/country_list_doc)
+
+## Preview
+![Preview](preview.webp)
