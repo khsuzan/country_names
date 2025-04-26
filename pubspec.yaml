@@ -31,12 +31,8 @@ screenshots:
     path: preview.webp
 
 topics:
-  - flutter
   - country
   - country-list
   - flags
   - country-selector
-  - localization
-  - data
-  - sorting
   - customizable
