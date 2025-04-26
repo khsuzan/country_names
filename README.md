@@ -26,4 +26,4 @@ For more detailed documentation on how to use the `country_list` package, please
 [**Country List Documentation**](https://fenzybd.github.io/country_list_doc)
 
 ## Preview
-<img src="preview.webp" width="600" alt="Preview">
+<img src="preview.webp" width="300" alt="Preview">
