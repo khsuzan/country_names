@@ -5,10 +5,10 @@ part 'data.dart';
 part 'sorter.dart';
 
 typedef CountryItemBuilder =
-    Widget Function(BuildContext context, InternalCountry country);
+    Widget Function(BuildContext context, Country country);
 
 class CountryListView extends StatefulWidget {
-  final void Function(InternalCountry country)? onSelect;
+  final void Function(Country country)? onSelect;
   final CountryItemBuilder? itemBuilder;
   final OrderBy sortBy;
   final ImageQuality quality;
@@ -26,19 +26,14 @@ class CountryListView extends StatefulWidget {
 }
 
 class _CountryListViewState extends State<CountryListView> {
-  late List<InternalCountry> countries;
-
-  AssetImage getFlag(ImageQuality quality, String code) {
-    final subdir = quality == ImageQuality.small ? "_80" : "_160";
-    return AssetImage("assets/$subdir/$code.png", package: "country_list");
-  }
+  late List<_InternalCountry> countries;
 
   @override
   void initState() {
     super.initState();
     countries = switch (widget.sortBy) {
-      OrderBy.name => sovereignCountries,
-      OrderBy.code => List<InternalCountry>.from(sovereignCountries)
+      OrderBy.name => _sovereignCountries,
+      OrderBy.code => List<_InternalCountry>.from(_sovereignCountries)
         ..sort((a, b) => a.code.compareTo(b.code)),
     };
   }
@@ -48,8 +43,7 @@ class _CountryListViewState extends State<CountryListView> {
     return ListView.builder(
       itemCount: countries.length,
       itemBuilder: (context, index) {
-        final country = countries[index];
-        final flag = getFlag(widget.quality, country.code);
+        final country = countries[index].toCountry(quality: widget.quality);
         if (widget.itemBuilder != null) {
           return GestureDetector(
             onTap: () => widget.onSelect?.call(country),
@@ -60,7 +54,7 @@ class _CountryListViewState extends State<CountryListView> {
           );
         }
         return ListTile(
-          leading: Image(image: flag, width: 32),
+          leading: Image(image: country.flag, width: 32),
           title: Text(country.name),
           onTap: () => widget.onSelect?.call(country),
         );
