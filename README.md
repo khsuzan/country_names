@@ -20,8 +20,8 @@ Add `country_list` to your `pubspec.yaml` file:
 ```yaml
 dependencies:
   country_list:
-  git:
-    url: https://github.com/khsuzan/country_list.git
+    git:
+      url: https://github.com/khsuzan/country_list.git
 ```
 
 For more detailed documentation on how to use the `country_list` package, please visit the official documentation here:
