@@ -5,6 +5,10 @@ homepage: https://fenzybd.github.io/country_names_doc
 repository: https://github.com/khsuzan/country_names
 documentation: https://fenzybd.github.io/ccountry_names_doc
 issue_tracker: https://github.com/khsuzan/country_names/issues
+homepage: https://fenzybd.github.io/country_names_doc
+repository: https://github.com/khsuzan/country_names
+documentation: https://fenzybd.github.io/ccountry_names_doc
+issue_tracker: https://github.com/khsuzan/country_names/issues
 
 environment:
   sdk: ^3.7.0
