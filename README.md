@@ -1,4 +1,4 @@
-# country_list
+# country_names
 
 A Flutter package providing a list of sovereign countries with customizable features and high-quality flag images.
 
@@ -15,17 +15,15 @@ A Flutter package providing a list of sovereign countries with customizable feat
 
 ## Installation
 
-Add `country_list` to your `pubspec.yaml` file:
+Add `# country_names` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  country_list:
-    git:
-      url: https://github.com/khsuzan/country_list.git
+  country_names: ^1.1.0
 ```
 
-For more detailed documentation on how to use the `country_list` package, please visit the official documentation here:
-[**Country List Documentation**](https://fenzybd.github.io/country_list_doc)
+For more detailed documentation on how to use the `country_names` package, please visit the official documentation here:
+[**Country List Documentation**](https://fenzybd.github.io/country_names_doc)
 
 ## Preview
 <img src="preview.webp" width="300" alt="Preview">
