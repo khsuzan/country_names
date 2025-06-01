@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 (2025-06-02)
+## 1.1.1 (2025-06-02)
 - **Minor Fix**
     - package name update in asset loading
 
