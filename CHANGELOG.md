@@ -1,9 +1,12 @@
 # Changelog
 
+## 1.1.0 (2025-06-02)
+- **Minor Fix**
+    - package name update in asset loading
 
-## 1.1.0 (YYYY-MM-DD)
+## 1.1.0 (2025-06-01)
 
-- **Initial Release**
+- **Minor Fix**
     - search builder added on top of list
 
 ## 1.0.0 (YYYY-MM-DD)
