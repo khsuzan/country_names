@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2 (2025-06-02)
+- **Minor Change**
+    - readme updated
+
 ## 1.1.1 (2025-06-02)
 - **Minor Fix**
     - package name update in asset loading

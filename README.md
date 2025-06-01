@@ -19,11 +19,11 @@ Add `# country_names` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  country_names: ^1.1.0
+  country_names: ^1.1.2
 ```
 
 For more detailed documentation on how to use the `country_names` package, please visit the official documentation here:
-[**Country List Documentation**](https://fenzybd.github.io/country_names_doc)
+[**Country Names Documentation**](https://fenzybd.github.io/country_names_doc)
 
 ## Preview
 <img src="preview.webp" width="300" alt="Preview">

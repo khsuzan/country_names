@@ -1,6 +1,6 @@
 name: country_names
 description: A Flutter package providing a list of sovereign countries.
-version: 1.1.1
+version: 1.1.2
 homepage: https://fenzybd.github.io/country_names_doc
 repository: https://github.com/khsuzan/country_names
 documentation: https://fenzybd.github.io/country_names_doc
