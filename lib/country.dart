@@ -23,5 +23,5 @@ class Country {
 
   const Country._(this._flag,{required this.name, required this.code});
 
-  AssetImage get flag => AssetImage(_flag, package: "country_list");
+  AssetImage get flag => AssetImage(_flag, package: "country_names");
 }
