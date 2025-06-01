@@ -1,5 +1,11 @@
 # Changelog
 
+
+## 1.1.0 (YYYY-MM-DD)
+
+- **Initial Release**
+    - search builder added on top of list
+
 ## 1.0.0 (YYYY-MM-DD)
 
 - **Initial Release**
